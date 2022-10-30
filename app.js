@@ -48,7 +48,7 @@ const config = require("./config.js")
 
 client.commands = new Collection()
 
-const rest = new REST({ version: '9' }).setToken("OTE0NDM3MTE1NjQxNzU3NzA2.GJOwy6.wRaBzfynInqUT6RAFyYv1rJJxLCAK-dLFkZPL4");
+const rest = new REST({ version: '9' }).setToken(config.token);
 
 const log = l => { console.log(`[${moment().format("DD-MM-YYYY HH:mm:ss")}] ${l}`) };
 
