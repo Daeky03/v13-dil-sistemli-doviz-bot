@@ -1,0 +1,13 @@
+{
+    "döviz": {
+    
+    "author": "Döviz Kuru",
+    "dollar": "Dolar",
+    "buy": "Alış",
+"sell": "Satış",
+"location": "Para Birimi Konumu",
+"gold": "Altın"
+    
+    }
+    
+    }

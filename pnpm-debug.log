@@ -1,0 +1,1080 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "upt"
+      version: "1.0.0"
+      description: ""
+      main: "app.js"
+      dependencies: 
+        discord-sync-commands: "^0.3.0"
+        discord.js: "^13.3.1"
+        mongoose: "^6.0.12"
+      scripts: 
+        start: "nodemon app.js"
+      keywords: []
+      author: ""
+      license: "ISC"
+      readme: "#  Discord v13 Uptime Bot\n\n\n - [Discord Kayıt Bot](https://github.com/GweepCreative/v13-register-bot)\n      - [Kurulum](#kurulum-pc)\n      - [İletişim](#İletişim)\n      - [FAQ](#faq)\n      - [Discord](https://rabelcode.com/discord)\n\n<div align=\"center\">\n   <a href=\"https://github.com/GweepCreative\">\n      <img src=\"https://betaaa.has-a-hot.mom/55orRHk8J.gif\">\n   </a>\n</div>\n\n# Kurulum PC\n* İlk olarak bilgisayarına [Node JS](https://nodejs.org/en/) indir.\n* Bu projeyi zip halinde indir.\n* Herhangi bir klasöre zipi çıkart.\n* Daha sonra `ayarlar.json` dosyasındaki bilgileri doldur.\n* Sonra klasörün içerisinde bir `powershell` ya da `cmd` penceresi aç.\n* ```npm install``` yazarak tüm modülleri kur.\n* Kurulum bittikten sonra ```node beta.js``` yaz ve botu başlat.\n\n# Kurulum Glitch\n* İlk olarak [Buraya Tıkla](https://glitch.com/edit/#!/remix/kayitbot-v13) seni otomatik olarak proje sayfasına gönlendiricek.\n* Daha sonra `.env`dosyasındaki bilgileri doldur.\n* Kurulum bittikten sonra bot otomatik başlatılacaktır.\n\n## Botun İntentlerini Açmayı Unutma!\n* [Açmak İçin Tıkla](https://discord.com/developers/applications)\n<img src=\"https://cdn.discordapp.com/attachments/818953120452575322/851116463166849054/3P4KKB.png\"/>\n\n***Tadaaa 🎉. Artık v13 uptime botun hazır. Dilediğin gibi kullanabilirsin.***\n\n# İletişim\n* [Discord Profilim](https://discord.com/users/586822327568695317)\n* [Discord Sunucum](https://rabelcode.com/discord)\n* [Youtube Kanalım](http://gweepcreative.com)\n\n# FAQ\nSıkça sorulan sorulara buradan ulaşabilirsin.\n\n**Q:** Altyapıyı geliştirilmeye devam edilecek mi?<br />\n**A:** Eğer bir şeyler eklersem dolaylı yoldan burayada ekleyeceğim.\n\n**Q:** İstek herhangi bir şey ekliyor musun?<br />\n**A:** Eğer istediğin şey hoşuma giderse ve yapmaktan zevk alacaksam eklerim.\n\n**Q:** Altyapı tamamen sanamı ait?<br />\n**A:** Evet tamamen bana ait 0'dan kendim yaptım.  \n\n**Q:** Hatalarla ilgileniyor musun?<br />\n**A:** Proje içindeki hatalarla ilgileniyorum. Eğer bir hata ile karşılaşırsanız lütfen Discorddan benimle iletişim kurun. \n\n\n## NOT: Botta MIT lisansı bulunmaktadır. Bu botun dosyalarının benden habersiz paylaşılması/satılması durumunda gerekli işlemler yapılacaktır!\n"
+      readmeFilename: "README.md"
+      gitHead: "717f9e25943eb9a7d547d68be20e138b996b66d6"
+      _id: "upt@1.0.0"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mongoose/6.0.13: wanted: {\"node\":\">=12.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongoose/6.0.13"
+    requester: "/app"
+    status: "resolved"
+  6 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/discord.js/13.3.1: wanted: {\"node\":\">=16.6.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/13.3.1"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bson/4.5.4"
+    requester: "/app"
+    status: "resolved"
+  9 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mquery/4.0.0: wanted: {\"node\":\">=12.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mquery/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/kareem/2.3.2"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-fetch/2.6.6"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/regexp-clone/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node-fetch/2.5.12"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/ws/8.2.0"
+    requester: "/app"
+    status: "resolved"
+  18 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mongodb/4.1.4: wanted: {\"node\":\">=12.9.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb/4.1.4"
+    requester: "/app"
+    status: "resolved"
+  20 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/discord-api-types/0.24.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-api-types/0.24.0"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/8.2.3"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sift/13.5.2"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/regexp-clone/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sliced/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mpath/0.8.4"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer/5.7.1"
+    requester: "/app"
+    status: "resolved"
+  28 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@sapphire/async-queue/1.1.9: wanted: {\"node\":\">=v14.0.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sapphire/async-queue/1.1.9"
+    requester: "/app"
+    status: "resolved"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/4.3.2"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/form-data/3.0.1"
+    requester: "/app"
+    status: "resolved"
+  32 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@discordjs/collection/0.3.2: wanted: {\"node\":\">=16.0.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/collection/0.3.2"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sliced/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-sync-commands/0.3.0"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data/3.0.1"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/whatwg-url/5.0.0"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node/16.11.7"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/form-data/3.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/whatwg-url/5.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb-connection-string-url/2.2.0"
+    requester: "/app"
+    status: "resolved"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/denque/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  43 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/saslprep/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node-fetch/2.5.12"
+    requester: "/app"
+    status: "found_in_store"
+  45 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/ws/8.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  46 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ieee754/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  47 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/base64-js/1.5.1"
+    requester: "/app"
+    status: "resolved"
+  48 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.34"
+    requester: "/app"
+    status: "resolved"
+  49 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/combined-stream/1.0.8"
+    requester: "/app"
+    status: "resolved"
+  50 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tr46/0.0.3"
+    requester: "/app"
+    status: "resolved"
+  51 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/asynckit/0.4.0"
+    requester: "/app"
+    status: "resolved"
+  52 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/webidl-conversions/3.0.1"
+    requester: "/app"
+    status: "resolved"
+  53 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/saslprep/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  54 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/kareem/2.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  55 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sapphire/async-queue/1.1.9"
+    requester: "/app"
+    status: "found_in_store"
+  56 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/whatwg-url/11.0.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  57 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/whatwg-url/11.0.0"
+    requester: "/app"
+    status: "resolved"
+  58 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-fetch/2.6.6"
+    requester: "/app"
+    status: "found_in_store"
+  59 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/8.2.3"
+    requester: "/app"
+    status: "found_in_store"
+  60 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sift/13.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  61 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/4.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  62 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/combined-stream/1.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  63 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tr46/0.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  64 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/asynckit/0.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  65 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/webidl-conversions/3.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  66 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/collection/0.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  67 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data/3.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  68 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@discordjs/builders/0.8.2: wanted: {\"node\":\">=16.0.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  69 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/builders/0.8.2"
+    requester: "/app"
+    status: "resolved"
+  70 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sparse-bitfield/3.0.3"
+    requester: "/app"
+    status: "resolved"
+  71 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/tr46/3.0.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  72 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tr46/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  73 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/webidl-conversions/7.0.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  74 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/webidl-conversions/7.0.0"
+    requester: "/app"
+    status: "resolved"
+  75 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer/5.7.1"
+    requester: "/app"
+    status: "found_in_store"
+  76 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/delayed-stream/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  77 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mpath/0.8.4"
+    requester: "/app"
+    status: "found_in_store"
+  78 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ieee754/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  79 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/base64-js/1.5.1"
+    requester: "/app"
+    status: "found_in_store"
+  80 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.34"
+    requester: "/app"
+    status: "found_in_store"
+  81 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sparse-bitfield/3.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  82 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/delayed-stream/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  83 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/13.3.1"
+    requester: "/app"
+    status: "found_in_store"
+  84 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/discord-api-types/0.24.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  85 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tslib/2.3.1"
+    requester: "/app"
+    status: "resolved"
+  86 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/punycode/2.1.1"
+    requester: "/app"
+    status: "resolved"
+  87 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ts-mixer/6.0.0"
+    requester: "/app"
+    status: "resolved"
+  88 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tslib/2.3.1"
+    requester: "/app"
+    status: "found_in_store"
+  89 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.51.0"
+    requester: "/app"
+    status: "resolved"
+  90 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/memory-pager/1.5.0"
+    requester: "/app"
+    status: "resolved"
+  91 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sindresorhus/is/4.2.0"
+    requester: "/app"
+    status: "resolved"
+  92 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/punycode/2.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  93 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/memory-pager/1.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  94 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/builders/0.8.2"
+    requester: "/app"
+    status: "found_in_store"
+  95 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ts-mixer/6.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  96 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node/16.11.7"
+    requester: "/app"
+    status: "found_in_store"
+  97 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sindresorhus/is/4.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  98 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bson/4.5.4"
+    requester: "/app"
+    status: "found_in_store"
+  99 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-api-types/0.24.0"
+    requester: "/app"
+    status: "found_in_store"
+  100 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.51.0"
+    requester: "/app"
+    status: "found_in_store"
+  101 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/denque/2.0.1"
+    requester: "/app"
+    status: "fetched"
+  102 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/webidl-conversions/7.0.0"
+    requester: "/app"
+    status: "fetched"
+  103 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb-connection-string-url/2.2.0"
+    requester: "/app"
+    status: "fetched"
+  104 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-sync-commands/0.3.0"
+    requester: "/app"
+    status: "fetched"
+  105 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/whatwg-url/8.2.1"
+    requester: "/app"
+    status: "resolved"
+  106 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tr46/3.0.0"
+    requester: "/app"
+    status: "fetched"
+  107 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/ow/0.27.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  108 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ow/0.27.0"
+    requester: "/app"
+    status: "resolved"
+  109 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ow/0.27.0"
+    requester: "/app"
+    status: "found_in_store"
+  110 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dot-prop/6.0.1"
+    requester: "/app"
+    status: "resolved"
+  111 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-fest/1.4.0"
+    requester: "/app"
+    status: "resolved"
+  112 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/callsites/3.1.0"
+    requester: "/app"
+    status: "resolved"
+  113 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.isequal/4.5.0"
+    requester: "/app"
+    status: "resolved"
+  114 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/webidl-conversions/6.1.1"
+    requester: "/app"
+    status: "resolved"
+  115 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vali-date/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  116 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dot-prop/6.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  117 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-fest/1.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  118 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/callsites/3.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  119 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lodash.isequal/4.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  120 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vali-date/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  121 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/whatwg-url/11.0.0"
+    requester: "/app"
+    status: "fetched"
+  122 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-obj/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  123 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/is-obj/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  124 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mquery/4.0.0"
+    requester: "/app"
+    status: "fetched"
+  125 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/webidl-conversions/6.1.1"
+    requester: "/app"
+    status: "fetched"
+  126 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/whatwg-url/8.2.1"
+    requester: "/app"
+    status: "fetched"
+  127 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongoose/6.0.13"
+    requester: "/app"
+    status: "fetched"
+  128 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb/4.1.4"
+    requester: "/app"
+    status: "fetched"
+  129 warn pnpm:install-check: 
+    message: "Unsupported engine for github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a: wanted: {\"node\":\">=16.6.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  130 debug pnpm:progress: 
+    packageId: "github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a"
+    requester: "/app"
+    status: "resolved"
+  131 debug pnpm:progress: 
+    packageId: "github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a"
+    requester: "/app"
+    status: "fetched"
+  132 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@discordjs/builders/0.5.0: wanted: {\"node\":\">=14.0.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  133 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/builders/0.5.0"
+    requester: "/app"
+    status: "resolved"
+  134 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@discordjs/collection/0.2.4: wanted: {\"node\":\">=16.0.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  135 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/collection/0.2.4"
+    requester: "/app"
+    status: "resolved"
+  136 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@sapphire/async-queue/1.1.9: wanted: {\"node\":\">=v14.0.0\",\"npm\":\">=7.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  137 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/ws/7.4.7"
+    requester: "/app"
+    status: "resolved"
+  138 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/discord-api-types/0.22.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  139 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-api-types/0.22.0"
+    requester: "/app"
+    status: "resolved"
+  140 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/7.5.5"
+    requester: "/app"
+    status: "resolved"
+  141 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/7.5.5"
+    requester: "/app"
+    status: "found_in_store"
+  142 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/discord-api-types/0.22.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  143 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/ow/0.27.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  144 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_done"
+  145 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      name: "upt"
+      version: "1.0.0"
+      description: ""
+      main: "app.js"
+      dependencies: 
+        discord-sync-commands: "^0.3.0"
+        discord.js: "^13.3.1"
+        mongoose: "^6.0.12"
+      scripts: 
+        start: "nodemon app.js"
+      keywords: []
+      author: ""
+      license: "ISC"
+      readme: "#  Discord v13 Uptime Bot\n\n\n - [Discord Kayıt Bot](https://github.com/GweepCreative/v13-register-bot)\n      - [Kurulum](#kurulum-pc)\n      - [İletişim](#İletişim)\n      - [FAQ](#faq)\n      - [Discord](https://rabelcode.com/discord)\n\n<div align=\"center\">\n   <a href=\"https://github.com/GweepCreative\">\n      <img src=\"https://betaaa.has-a-hot.mom/55orRHk8J.gif\">\n   </a>\n</div>\n\n# Kurulum PC\n* İlk olarak bilgisayarına [Node JS](https://nodejs.org/en/) indir.\n* Bu projeyi zip halinde indir.\n* Herhangi bir klasöre zipi çıkart.\n* Daha sonra `ayarlar.json` dosyasındaki bilgileri doldur.\n* Sonra klasörün içerisinde bir `powershell` ya da `cmd` penceresi aç.\n* ```npm install``` yazarak tüm modülleri kur.\n* Kurulum bittikten sonra ```node beta.js``` yaz ve botu başlat.\n\n# Kurulum Glitch\n* İlk olarak [Buraya Tıkla](https://glitch.com/edit/#!/remix/kayitbot-v13) seni otomatik olarak proje sayfasına gönlendiricek.\n* Daha sonra `.env`dosyasındaki bilgileri doldur.\n* Kurulum bittikten sonra bot otomatik başlatılacaktır.\n\n## Botun İntentlerini Açmayı Unutma!\n* [Açmak İçin Tıkla](https://discord.com/developers/applications)\n<img src=\"https://cdn.discordapp.com/attachments/818953120452575322/851116463166849054/3P4KKB.png\"/>\n\n***Tadaaa 🎉. Artık v13 uptime botun hazır. Dilediğin gibi kullanabilirsin.***\n\n# İletişim\n* [Discord Profilim](https://discord.com/users/586822327568695317)\n* [Discord Sunucum](https://rabelcode.com/discord)\n* [Youtube Kanalım](http://gweepcreative.com)\n\n# FAQ\nSıkça sorulan sorulara buradan ulaşabilirsin.\n\n**Q:** Altyapıyı geliştirilmeye devam edilecek mi?<br />\n**A:** Eğer bir şeyler eklersem dolaylı yoldan burayada ekleyeceğim.\n\n**Q:** İstek herhangi bir şey ekliyor musun?<br />\n**A:** Eğer istediğin şey hoşuma giderse ve yapmaktan zevk alacaksam eklerim.\n\n**Q:** Altyapı tamamen sanamı ait?<br />\n**A:** Evet tamamen bana ait 0'dan kendim yaptım.  \n\n**Q:** Hatalarla ilgileniyor musun?<br />\n**A:** Proje içindeki hatalarla ilgileniyorum. Eğer bir hata ile karşılaşırsanız lütfen Discorddan benimle iletişim kurun. \n\n\n## NOT: Botta MIT lisansı bulunmaktadır. Bu botun dosyalarının benden habersiz paylaşılması/satılması durumunda gerekli işlemler yapılacaktır!\n"
+      readmeFilename: "README.md"
+      gitHead: "717f9e25943eb9a7d547d68be20e138b996b66d6"
+      _id: "upt@1.0.0"
+  146 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/ws/7.4.7"
+    requester: "/app"
+    status: "fetched"
+  147 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/collection/0.2.4"
+    requester: "/app"
+    status: "fetched"
+  148 warn pnpm: 
+    message: "discord-sync-commands > discord.js: ws@7.5.5 requires a peer of bufferutil@^4.0.1 but none was installed."
+    prefix: "/app"
+  149 warn pnpm: 
+    message: "discord-sync-commands > discord.js: ws@7.5.5 requires a peer of utf-8-validate@^5.0.2 but none was installed."
+    prefix: "/app"
+  150 warn pnpm: 
+    message: "discord.js: ws@8.2.3 requires a peer of bufferutil@^4.0.1 but none was installed."
+    prefix: "/app"
+  151 warn pnpm: 
+    message: "discord.js: ws@8.2.3 requires a peer of utf-8-validate@^5.0.2 but none was installed."
+    prefix: "/app"
+  152 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  153 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  154 debug pnpm:stats: 
+    added: 62
+    prefix: "/app"
+  155 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/discord.js"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-sync-commands/0.3.0/node_modules/discord.js"
+  156 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.5.0/node_modules/@discordjs/builders"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/@discordjs/builders"
+  157 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/collection/0.2.4/node_modules/@discordjs/collection"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/@discordjs/collection"
+  158 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/form-data/3.0.1/node_modules/@discordjs/form-data"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/@discordjs/form-data"
+  159 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sapphire/async-queue/1.1.9/node_modules/@sapphire/async-queue"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/@sapphire/async-queue"
+  160 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/ws/7.4.7/node_modules/@types/ws"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/@types/ws"
+  161 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-api-types/0.22.0/node_modules/discord-api-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/discord-api-types"
+  162 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/node-fetch/2.6.6/node_modules/node-fetch"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/node-fetch"
+  163 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ws/7.5.5/node_modules/ws"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/ws"
+  164 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sindresorhus/is/4.2.0/node_modules/@sindresorhus/is"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.5.0/node_modules/@sindresorhus/is"
+  165 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-api-types/0.22.0/node_modules/discord-api-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.5.0/node_modules/discord-api-types"
+  166 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/ow"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.5.0/node_modules/ow"
+  167 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ts-mixer/6.0.0/node_modules/ts-mixer"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.5.0/node_modules/ts-mixer"
+  168 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tslib/2.3.1/node_modules/tslib"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.5.0/node_modules/tslib"
+  169 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sindresorhus/is/4.2.0/node_modules/@sindresorhus/is"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/@sindresorhus/is"
+  170 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/callsites/3.1.0/node_modules/callsites"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/callsites"
+  171 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/dot-prop/6.0.1/node_modules/dot-prop"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/dot-prop"
+  172 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/lodash.isequal/4.5.0/node_modules/lodash.isequal"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/lodash.isequal"
+  173 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/type-fest/1.4.0/node_modules/type-fest"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/type-fest"
+  174 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/vali-date/1.0.0/node_modules/vali-date"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/vali-date"
+  175 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/is-obj/2.0.0/node_modules/is-obj"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/dot-prop/6.0.1/node_modules/is-obj"
+  176 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/asynckit/0.4.0/node_modules/asynckit"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/form-data/3.0.1/node_modules/asynckit"
+  177 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/combined-stream"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/form-data/3.0.1/node_modules/combined-stream"
+  178 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mime-types/2.1.34/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/form-data/3.0.1/node_modules/mime-types"
+  179 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/delayed-stream/1.0.0/node_modules/delayed-stream"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/delayed-stream"
+  180 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mime-db/1.51.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mime-types/2.1.34/node_modules/mime-db"
+  181 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node/16.11.7/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/ws/7.4.7/node_modules/@types/node"
+  182 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/5.0.0/node_modules/whatwg-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/node-fetch/2.6.6/node_modules/whatwg-url"
+  183 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tr46/0.0.3/node_modules/tr46"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/5.0.0/node_modules/tr46"
+  184 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/webidl-conversions/3.0.1/node_modules/webidl-conversions"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/5.0.0/node_modules/webidl-conversions"
+  185 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/@discordjs/builders"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/@discordjs/builders"
+  186 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/collection/0.3.2/node_modules/@discordjs/collection"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/@discordjs/collection"
+  187 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/form-data/3.0.1/node_modules/@discordjs/form-data"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/@discordjs/form-data"
+  188 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sapphire/async-queue/1.1.9/node_modules/@sapphire/async-queue"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/@sapphire/async-queue"
+  189 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node-fetch/2.5.12/node_modules/@types/node-fetch"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/@types/node-fetch"
+  190 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/ws/8.2.0/node_modules/@types/ws"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/@types/ws"
+  191 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-api-types/0.24.0/node_modules/discord-api-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/discord-api-types"
+  192 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/node-fetch/2.6.6/node_modules/node-fetch"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/node-fetch"
+  193 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ws/8.2.3/node_modules/ws"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/ws"
+  194 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sindresorhus/is/4.2.0/node_modules/@sindresorhus/is"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/@sindresorhus/is"
+  195 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-api-types/0.24.0/node_modules/discord-api-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/discord-api-types"
+  196 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/ow"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/ow"
+  197 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ts-mixer/6.0.0/node_modules/ts-mixer"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/ts-mixer"
+  198 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tslib/2.3.1/node_modules/tslib"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/tslib"
+  199 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node/16.11.7/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node-fetch/2.5.12/node_modules/@types/node"
+  200 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/form-data/3.0.1/node_modules/form-data"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node-fetch/2.5.12/node_modules/form-data"
+  201 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/asynckit/0.4.0/node_modules/asynckit"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/form-data/3.0.1/node_modules/asynckit"
+  202 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/combined-stream"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/form-data/3.0.1/node_modules/combined-stream"
+  203 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mime-types/2.1.34/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/form-data/3.0.1/node_modules/mime-types"
+  204 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node/16.11.7/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/ws/8.2.0/node_modules/@types/node"
+  205 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-api-types/0.22.0"
+    requester: "/app"
+    status: "fetched"
+  206 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/builders/0.5.0"
+    requester: "/app"
+    status: "fetched"
+  207 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/bson/4.5.4/node_modules/bson"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/bson"
+  208 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/kareem/2.3.2/node_modules/kareem"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/kareem"
+  209 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb/4.1.4/node_modules/mongodb"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/mongodb"
+  210 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mpath/0.8.4/node_modules/mpath"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/mpath"
+  211 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mquery/4.0.0/node_modules/mquery"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/mquery"
+  212 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ms/2.1.2/node_modules/ms"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/ms"
+  213 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/regexp-clone/1.0.0/node_modules/regexp-clone"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/regexp-clone"
+  214 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sift/13.5.2/node_modules/sift"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/sift"
+  215 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sliced/1.0.1/node_modules/sliced"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/sliced"
+  216 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/buffer"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/bson/4.5.4/node_modules/buffer"
+  217 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/base64-js/1.5.1/node_modules/base64-js"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/base64-js"
+  218 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ieee754/1.2.1/node_modules/ieee754"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/ieee754"
+  219 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/saslprep/1.0.3/node_modules/saslprep"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb/4.1.4/node_modules/saslprep"
+  220 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/bson/4.5.4/node_modules/bson"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb/4.1.4/node_modules/bson"
+  221 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/denque/2.0.1/node_modules/denque"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb/4.1.4/node_modules/denque"
+  222 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.2.0/node_modules/mongodb-connection-string-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb/4.1.4/node_modules/mongodb-connection-string-url"
+  223 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.1/node_modules/@types/whatwg-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.2.0/node_modules/@types/whatwg-url"
+  224 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/whatwg-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.2.0/node_modules/whatwg-url"
+  225 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node/16.11.7/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.1/node_modules/@types/node"
+  226 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/webidl-conversions/6.1.1/node_modules/@types/webidl-conversions"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.1/node_modules/@types/webidl-conversions"
+  227 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tr46/3.0.0/node_modules/tr46"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/tr46"
+  228 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/webidl-conversions/7.0.0/node_modules/webidl-conversions"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/webidl-conversions"
+  229 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/punycode/2.1.1/node_modules/punycode"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tr46/3.0.0/node_modules/punycode"
+  230 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/debug/4.3.2/node_modules/debug"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mquery/4.0.0/node_modules/debug"
+  231 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/regexp-clone/1.0.0/node_modules/regexp-clone"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mquery/4.0.0/node_modules/regexp-clone"
+  232 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sliced/1.0.1/node_modules/sliced"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mquery/4.0.0/node_modules/sliced"
+  233 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ms/2.1.2/node_modules/ms"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/debug/4.3.2/node_modules/ms"
+  234 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sparse-bitfield/3.0.3/node_modules/sparse-bitfield"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/saslprep/1.0.3/node_modules/sparse-bitfield"
+  235 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/memory-pager/1.5.0/node_modules/memory-pager"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sparse-bitfield/3.0.3/node_modules/memory-pager"
+  236 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  237 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-sync-commands/0.3.0/node_modules/discord-sync-commands"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/discord-sync-commands"
+  238 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord.js/13.3.1/node_modules/discord.js"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/discord.js"
+  239 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongoose/6.0.13/node_modules/mongoose"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mongoose"
+  240 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/discord-sync-commands/0.3.0"
+      name: "discord-sync-commands"
+      realName: "discord-sync-commands"
+      version: "0.3.0"
+    prefix: "/app"
+  241 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/discord.js/13.3.1"
+      name: "discord.js"
+      realName: "discord.js"
+      version: "13.3.1"
+    prefix: "/app"
+  242 debug pnpm:root: 
+    added: 
+      dependencyType: "prod"
+      id: "registry.npmjs.org/mongoose/6.0.13"
+      name: "mongoose"
+      realName: "mongoose"
+      version: "6.0.13"
+    prefix: "/app"
+  243 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/builders/0.8.2/node_modules/@discordjs/builders"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@discordjs/builders"
+  244 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/collection/0.3.2/node_modules/@discordjs/collection"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@discordjs/collection"
+  245 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@discordjs/form-data/3.0.1/node_modules/@discordjs/form-data"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@discordjs/form-data"
+  246 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sapphire/async-queue/1.1.9/node_modules/@sapphire/async-queue"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@sapphire/async-queue"
+  247 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node-fetch/2.5.12/node_modules/@types/node-fetch"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@types/node-fetch"
+  248 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/ws/8.2.0/node_modules/@types/ws"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@types/ws"
+  249 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/bson/4.5.4/node_modules/bson"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/bson"
+  250 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/discord-api-types/0.24.0/node_modules/discord-api-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/discord-api-types"
+  251 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/kareem/2.3.2/node_modules/kareem"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/kareem"
+  252 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb/4.1.4/node_modules/mongodb"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mongodb"
+  253 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mpath/0.8.4/node_modules/mpath"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mpath"
+  254 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mquery/4.0.0/node_modules/mquery"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mquery"
+  255 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ms/2.1.2/node_modules/ms"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/ms"
+  256 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/node-fetch/2.6.6/node_modules/node-fetch"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/node-fetch"
+  257 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/regexp-clone/1.0.0/node_modules/regexp-clone"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/regexp-clone"
+  258 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sift/13.5.2/node_modules/sift"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/sift"
+  259 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sliced/1.0.1/node_modules/sliced"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/sliced"
+  260 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ws/8.2.3/node_modules/ws"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/ws"
+  261 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@sindresorhus/is/4.2.0/node_modules/@sindresorhus/is"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@sindresorhus/is"
+  262 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/node/16.11.7/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@types/node"
+  263 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/asynckit/0.4.0/node_modules/asynckit"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/asynckit"
+  264 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/buffer"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/buffer"
+  265 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/combined-stream"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/combined-stream"
+  266 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/debug/4.3.2/node_modules/debug"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/debug"
+  267 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/denque/2.0.1/node_modules/denque"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/denque"
+  268 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/form-data/3.0.1/node_modules/form-data"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/form-data"
+  269 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mime-types/2.1.34/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mime-types"
+  270 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.2.0/node_modules/mongodb-connection-string-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mongodb-connection-string-url"
+  271 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ow/0.27.0/node_modules/ow"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/ow"
+  272 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/saslprep/1.0.3/node_modules/saslprep"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/saslprep"
+  273 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ts-mixer/6.0.0/node_modules/ts-mixer"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/ts-mixer"
+  274 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tslib/2.3.1/node_modules/tslib"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/tslib"
+  275 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/whatwg-url/5.0.0/node_modules/whatwg-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/whatwg-url"
+  276 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.1/node_modules/@types/whatwg-url"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@types/whatwg-url"
+  277 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/base64-js/1.5.1/node_modules/base64-js"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/base64-js"
+  278 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/callsites/3.1.0/node_modules/callsites"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/callsites"
+  279 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/delayed-stream/1.0.0/node_modules/delayed-stream"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/delayed-stream"
+  280 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/dot-prop/6.0.1/node_modules/dot-prop"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/dot-prop"
+  281 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/ieee754/1.2.1/node_modules/ieee754"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/ieee754"
+  282 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/lodash.isequal/4.5.0/node_modules/lodash.isequal"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/lodash.isequal"
+  283 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/mime-db/1.51.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/mime-db"
+  284 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/sparse-bitfield/3.0.3/node_modules/sparse-bitfield"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/sparse-bitfield"
+  285 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/tr46/0.0.3/node_modules/tr46"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/tr46"
+  286 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/type-fest/1.4.0/node_modules/type-fest"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/type-fest"
+  287 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/vali-date/1.0.0/node_modules/vali-date"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/vali-date"
+  288 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/webidl-conversions/3.0.1/node_modules/webidl-conversions"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/webidl-conversions"
+  289 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/@types/webidl-conversions/6.1.1/node_modules/@types/webidl-conversions"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/@types/webidl-conversions"
+  290 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/is-obj/2.0.0/node_modules/is-obj"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/is-obj"
+  291 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/memory-pager/1.5.0/node_modules/memory-pager"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/memory-pager"
+  292 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.registry.npmjs.org/punycode/2.1.1/node_modules/punycode"
+    link: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/punycode"
+  293 debug pnpm:lifecycle: 
+    depPath: "github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a"
+    optional: false
+    script: "is-ci || husky install"
+    stage: "prepare"
+    wd: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/discord.js"
+  294 debug pnpm:lifecycle: 
+    depPath: "github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a"
+    line: "sh: 1: husky: not found"
+    stage: "prepare"
+    stdio: "stderr"
+    wd: "/rbd/pnpm-volume/c485ee2c-790f-4009-bf36-1204c4827a8c/node_modules/.github.com/discordjs/discord.js/b2ef10fdd742aa08da3a33b2cf35f0f2350e915a/node_modules/discord.js"
+  295 error pnpm: 
+    message: 
+      code: "ELIFECYCLE"
+      errno: "ENOENT"
+      syscall: "spawn"
+      file: "sh"
+      pkgid: "discord.js@13.2.0-dev"
+      stage: "prepare"
+      script: "is-ci || husky install"
+      pkgname: "discord.js"
+    err: 
+      name: "Error"
+      message: "discord.js@13.2.0-dev prepare: `is-ci || husky install`\nspawn ENOENT"
+      code: "ELIFECYCLE"
+      stack: "Error: discord.js@13.2.0-dev prepare: `is-ci || husky install`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/opt/nvm/versions/node/v10.24.1/lib/node_modules/pnpm/lib/node_modules/@zkochan/npm-lifecycle/lib/spawn.js:48:18)\n    at ChildProcess.emit (events.js:198:13)\n    at maybeClose (internal/child_process.js:982:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)"
